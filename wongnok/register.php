@@ -1,6 +1,6 @@
 <?php
 session_start();
-include 'config/db.php'; // เชื่อมต่อฐานข้อมูล
+include 'wongnok/config/db.php'; // เชื่อมต่อฐานข้อมูล
 
 // ตรวจสอบว่ามาจาก POST
 if ($_SERVER["REQUEST_METHOD"] == "POST") {

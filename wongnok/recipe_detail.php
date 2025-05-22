@@ -1,5 +1,5 @@
 <?php
-require_once 'config/db.php';
+require_once 'wongnok/config/db.php';
 
 if (!isset($_GET['id'])) {
     echo "ไม่พบเมนูที่คุณเลือก";

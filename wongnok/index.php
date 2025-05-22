@@ -1,6 +1,6 @@
 <?php
 session_start();
-include 'config/db.php';
+include 'wongnok/config/db.php';
 
 if (isset($_GET['logout'])) {
   session_destroy();

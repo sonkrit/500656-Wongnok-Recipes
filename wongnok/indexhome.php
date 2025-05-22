@@ -1,6 +1,6 @@
 <?php
 session_start();
-include 'config/db.php';
+include 'wongnok/config/db.php';
 $user_id = $_SESSION['user_id'] ?? null;
 
 $keyword = $_GET['keyword'] ?? '';
