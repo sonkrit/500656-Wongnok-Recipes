@@ -1,6 +1,6 @@
 <?php
 session_start();
-require_once 'wongnok/config/db.php';
+require_once 'config/db.php';
 
 $recipe_id = $_POST['recipe_id'];
 $rating = $_POST['rating'];

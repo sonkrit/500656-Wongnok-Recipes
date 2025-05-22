@@ -1,5 +1,5 @@
 <?php
-include 'wongnok/config/db.php';
+include 'config/db.php';
 
 $keyword = $_GET['keyword'] ?? '';
 $difficulty = $_GET['difficulty'] ?? '';

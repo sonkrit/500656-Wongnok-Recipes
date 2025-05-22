@@ -1,6 +1,6 @@
 <?php
 session_start();
-include 'wongnok/config/db.php';
+include 'config/db.php';
 $user_id = $_SESSION['user_id'] ?? null;
 
 $keyword = $_GET['keyword'] ?? '';
@@ -144,11 +144,12 @@ if (!$result) {
             </span>
             <span class="badge bg-warning text-dark"><?= htmlspecialchars($row['cook_time']) ?> นาที</span>
           </p>
-          <p class="card-text">⭐ คะแนนของคุณ: <?= $row['my_rating'] ?? 'ยังไม่ได้ให้คะแนน' ?></p>
+          
           <!--p class="card-text">⭐ <?= $row['avg_rating'] ?? 'ยังไม่มีคะแนน' ?></p-->
-          <!--a href="recipe_detail.php?id=<?= $row['id'] ?>" class="btn btn-primary btn-sm">ดูรายละเอียด</a-->
+          <a href="recipe_detail.php?id=<?= $row['id'] ?>" class="btn btn-primary btn-sm">ดูรายละเอียด</a>
           <p class="card-text">⭐ คะแนนของคุณ: <?= $row['my_rating'] ?? 'ยังไม่ได้ให้คะแนน' ?></p>
           <p class="card-text">🌟 คะแนนเฉลี่ย: <?= $row['avg_rating'] ?? 'ยังไม่มีคะแนน' ?></p>
+          
         </div>
       </div>
     </div>
