@@ -1,3 +1,5 @@
+ลิงค์วีดีโอการติดตั้ง 
+https://drive.google.com/file/d/1t6Hh-Kd1TsXn0PvdnyPRu6CMwB7_wTYf/view?usp=drive_link
 เปิด MAMP Pro เพื่อ Start Server แล้วเปิด MAMP เพื่อ Start Server
 เข้าที่ไฟล์ Indexhome.php เพื่อเริ่มต้นใช้งาน Web Wongnok
 หากเปิดไม่ได้เป็นที่ไม่ได้ปิด - เปิด MAMP ใหม่อีกครับ
